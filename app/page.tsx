@@ -1,3 +1,4 @@
+import About from "./_components/About";
 import Intro from "./_components/Intro";
 import Navbar from "./_components/Navbar";
 
@@ -5,8 +6,9 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      <main className="">
+      <main className="sm:max-w-5xl sm:mx-auto">
         <Intro />
+        <About />
       </main>
     </>
   );
