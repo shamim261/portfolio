@@ -12,3 +12,12 @@ body {
   background: var(--background);
   font-family: "NTR", Helvetica, sans-serif;
 }
+body {
+  @apply max-w-sm mx-auto sm:max-w-6xl;
+}
+h1 {
+  @apply text-4xl;
+}
+p {
+  @apply text-xl;
+}

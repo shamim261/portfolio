@@ -21,6 +21,7 @@ export default {
           200: "#a8b2d1",
           300: "#8892b0",
         },
+        green: "#64ffda",
       },
     },
   },
