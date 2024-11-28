@@ -23,7 +23,7 @@ h2 {
   @apply text-[32px] sm:text-5xl;
 }
 p {
-  @apply text-lg sm:text-[22px] text-slate-300 text-justify;
+  @apply text-lg sm:text-[22px] text-slate-300;
 }
 
 .Typist .Cursor--blinking {
