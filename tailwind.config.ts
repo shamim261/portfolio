@@ -11,6 +11,16 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        navy: {
+          100: "#233554",
+          200: "#112240",
+          300: "#0a192f",
+        },
+        slate: {
+          100: "#ccd6f6",
+          200: "#a8b2d1",
+          300: "#8892b0",
+        },
       },
     },
   },
