@@ -7,7 +7,6 @@ interface Props {
 }
 const FadeUpSection = ({ delay, children }: Props) => {
   const [isVisible, setIsVisible] = useState<boolean>(false);
-  console.log(isVisible);
   const ref = useRef(null);
   useEffect(() => {
     const observer = new IntersectionObserver((entries) => {
