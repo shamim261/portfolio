@@ -7,8 +7,12 @@ const About = () => {
     "JavaScript",
     "TypeScript (Familier)",
     "React.js",
+    "Tailwind CSS",
     "Next.js",
     "Node.js",
+    "Express.js",
+    "RESTful API",
+    "JWT",
     "MongoDB",
   ];
   return (
@@ -18,16 +22,16 @@ const About = () => {
     >
       <div className="sm:w-3/5">
         <Heading>/ about me</Heading>
-        <p className="pb-2">
-          I am currently a Software Development Engineer at Amazon, working in
-          the AWS sector under team Route 53. At the same time, I am undertaking
-          a part-time Master's of Science in Software Engineering at University
-          of Oxford.
+        <p className="pb-2 text-justify">
+          I hold a diploma degree in Computer Engineering, which has equipped me
+          with a strong foundation in areas like software development,
+          networking, and hardware design, which has really helped me tackle
+          complex technical challenges and come up with creative solutions.
         </p>
         <p>Here are some technologies I have been working with:</p>
         <ul className="tech-list relative grid grid-cols-2 my-5 mx-3">
           {technologies.map((item, i) => (
-            <FadeUpSection key={i} delay={i}>
+            <FadeUpSection key={i} delay={i * 0.4}>
               <li
                 className={`text-xl text-slate-300`}
                 style={{ animationDelay: `${i * 0.2}s` }}
@@ -38,8 +42,7 @@ const About = () => {
           ))}
         </ul>
         <p className="my-2">
-          Outside of work, I'm interested in following the developments of
-          science. I also play a lot of video games. And make TikToks.
+          Outside of work, I'm interested in exploring the new technologies.
         </p>
       </div>
       <div className="hidden sm:block">

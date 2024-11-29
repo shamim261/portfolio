@@ -11,10 +11,9 @@ const Intro = () => {
         I create stuff sometimes.
       </h2>
       <p className="text-center animate-fade-up">
-        I'm a software engineer from Toronto, Canada. I'm fascinated by
-        large-scale, high-impact products and contributed to major feature
-        launches in industry-leading services as well as apps that have 100M+
-        installs.
+        A self-taught programmer with a passion for learning and exploring new
+        technologies. I am constantly seeking out opportunities to grow and
+        improve as a programmer.
       </p>
       <Link href="mailto:mdshamimreza5552@gmail.com">
         <div className="animate-fade-up flex gap-2 justify-center border border-green py-3 px-7 text-green font-bold text-lg rounded hover:bg-navy-100 my-2 transition-colors duration-300">

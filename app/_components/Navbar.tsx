@@ -1,5 +1,6 @@
 import { SiGithub, SiLinkedin } from "@icons-pack/react-simple-icons";
 import { Mail } from "lucide-react";
+
 import Link from "next/link";
 
 const Navbar = () => {
