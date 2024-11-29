@@ -6,6 +6,9 @@
   --background: #0a192f;
   --foreground: #ccd6f6;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   color: var(--foreground);
@@ -35,6 +38,6 @@ p {
   position: absolute;
   left: -14;
 } */
-.tech-list li {
-  list-style-type: "▹";
+.tech-list > li {
+  list-style-type: "▹" !important;
 }

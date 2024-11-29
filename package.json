@@ -16,7 +16,8 @@
     "react-dom": "19.0.0-rc-66855b96-20241106",
     "react-type-animation": "^3.2.0",
     "react-typist": "^2.0.5",
-    "simple-icons": "^13.18.0"
+    "simple-icons": "^13.18.0",
+    "tailwindcss-animated": "^1.1.2"
   },
   "devDependencies": {
     "@types/node": "^20",
