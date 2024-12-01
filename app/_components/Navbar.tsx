@@ -41,7 +41,7 @@ const Navbar = () => {
         <Link
           target="_blank"
           className="hover:text-green"
-          href="https://linkedlin.com/"
+          href="https://www.linkedin.com/in/shamim-reza-7933b8311/"
         >
           <SiLinkedin />
         </Link>

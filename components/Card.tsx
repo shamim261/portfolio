@@ -17,12 +17,12 @@ const Card = ({ name, desc, github, link, tech }: CardType) => {
         <Folder className="text-green w-8 h-8" />
         <div className="flex gap-3">
           {github && (
-            <Link href={github}>
+            <Link v href={github}>
               <SiGithub className="w-6 h-6" />
             </Link>
           )}
           {link && (
-            <Link href={link}>
+            <Link target="_blank" href={link}>
               <SquareArrowOutUpRight className="w-6 h-6" />
             </Link>
           )}
