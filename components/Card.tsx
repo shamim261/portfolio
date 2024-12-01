@@ -17,7 +17,7 @@ const Card = ({ name, desc, github, link, tech }: CardType) => {
         <Folder className="text-green w-8 h-8" />
         <div className="flex gap-3">
           {github && (
-            <Link v href={github}>
+            <Link target="_blank" href={github}>
               <SiGithub className="w-6 h-6" />
             </Link>
           )}
