@@ -24,7 +24,7 @@ const FadeUpSection = ({ delay, children }: Props) => {
 
   return (
     <div
-      className={`${isVisible ? `animate-fade-up ` : ""}`}
+      className={`${isVisible ? `animate-fade-up ` : "opacity-0"}`}
       ref={ref}
       style={{ animationDelay: `${(delay ?? 1) * 0.2}s` }}
     >

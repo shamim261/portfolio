@@ -5,7 +5,7 @@ import Typing from "./Typing";
 
 const Intro = () => {
   return (
-    <div className="h-[70vh] flex justify-center items-center flex-col space-y-2 text-center sm:h-[80vh] sm:max-w-xl sm:mx-auto  ">
+    <div className="h-[50vh] mt-8 flex justify-center items-center flex-col space-y-2 text-center sm:h-[80vh] sm:max-w-xl sm:mx-auto  ">
       <Typing />
       <h2 className="text-slate-200 animate-fade-up ">
         I create stuff sometimes.
