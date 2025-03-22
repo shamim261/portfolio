@@ -1,5 +1,4 @@
 import About from "./_components/About";
-import Experience from "./_components/Experience";
 import Footer from "./_components/Footer";
 import Intro from "./_components/Intro";
 import Navbar from "./_components/Navbar";
@@ -12,7 +11,7 @@ export default function Home() {
       <main className="sm:max-w-5xl sm:mx-auto">
         <Intro />
         <About />
-        <Experience />
+        {/* <Experience /> */}
         <Projects />
         <Footer />
       </main>
