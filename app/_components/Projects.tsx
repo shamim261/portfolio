@@ -4,6 +4,22 @@ import Heading from "@/components/Heading";
 
 const projects: CardType[] = [
   {
+    name: "Chup",
+    desc: "Chup is a modern anonymous messaging platform. Privacy-first, PWA-ready, and packed with cool features like push notifications, offline mode, and thread-based replies.",
+    // github: "https://github.com/shamim261/takaflow",
+    link: "https://chup.vercel.app/",
+    tech: [
+      "Next.js",
+      "TypeScript",
+      "Prisma ORM",
+      "TanStack Query",
+      "PostgreSQL",
+      "JWT",
+      "Tailwind CSS",
+      "PWA",
+    ],
+  },
+  {
     name: "TakaFlow",
     desc: "TakaFlow is a financial service application(MFS). It provides a secure and efficient platform for financial transactions with custom authentication and role-based access control.",
     github: "https://github.com/shamim261/takaflow",
@@ -33,23 +49,6 @@ const projects: CardType[] = [
       "MongoDB",
       "JWT",
       "Github CI/CD",
-    ],
-  },
-  {
-    name: "Shortee",
-    desc: "Shortee is a URL shortener web application built using the MERN stack. It allows users to shorten long URLs into more manageable and shareable links",
-    link: "https://shortee1.vercel.app/",
-    github: "https://github.com/shamim261/shortee",
-    tech: [
-      "React.js",
-      "Javascript",
-      "shadcn/ui",
-      "Tailwind CSS",
-      "Context API",
-      "Node.js",
-      "Express.js",
-      "MongoDB",
-      "JWT",
     ],
   },
 ];

@@ -4,8 +4,8 @@ import Image from "next/image";
 
 const About = () => {
   const technologies: string[] = [
-    "JavaScript",
-    "TypeScript (Familier)",
+    "TypeScript",
+    "React Native",
     "React.js",
     "Tailwind CSS",
     "Next.js",
@@ -23,10 +23,8 @@ const About = () => {
       <div className="sm:w-3/5">
         <Heading>/ about me</Heading>
         <p className="pb-2 text-justify">
-          I hold a diploma degree in Computer Engineering, which has equipped me
-          with a strong foundation in areas like software development,
-          networking, and hardware design, which has really helped me tackle
-          complex technical challenges and come up with creative solutions.
+          Didn't done anything to write here. Just an individual who enjoys
+          spending long hours in front of a computer.
         </p>
         <p>Here are some technologies I have been working with:</p>
         <ul className="tech-list relative grid grid-cols-2 my-5 mx-3">
